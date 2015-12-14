@@ -76,6 +76,12 @@ export DCS_OPTS="-XX:+UseConcMarkSweepGC"
 # export DCS_REST_OPTS="$DCS_REST_OPTS $DCS_JMX_BASE -Dcom.sun.management.jmxremote.port=10103"
 # export DCS_ZOOKEEPER_OPTS="$DCS_ZOOKEEPER_OPTS $DCS_JMX_BASE -Dcom.sun.management.jmxremote.port=10104"
 
+# File naming host on which DCS Primary Master will run.  $DCS_HOME/conf/master by default.
+# export DCS_PRIMARY_MASTER=${DCS_HOME}/conf/master
+
+# File naming hosts on which DCS Backup Masters will run.  $DCS_HOME/conf/backup-masters by default.
+# export DCS_BACKUP_MASTERS=${DCS_HOME}/conf/backup-masters
+
 # File naming hosts on which DCS Servers will run.  $DCS_HOME/conf/servers by default.
 # export DCS_SERVERS=${DCS_HOME}/conf/servers
 

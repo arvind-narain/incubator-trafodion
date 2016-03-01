@@ -378,6 +378,7 @@ Attributes * ExpGenerator::convertNATypeToAttributes
 	  Int16 scale = lobLen & 0xFFFF;
 	  attr->setPrecision(precision);
 	  attr->setScale(scale);
+          attr->setCharSet(lobType->getCharSet());
 	}
       
       else
